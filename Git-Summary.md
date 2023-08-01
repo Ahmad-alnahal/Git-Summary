@@ -18,7 +18,7 @@ git remote -v
 >[!note]- About Merge
 >> You can allow contributors with push access to your repository to merge their pull requests on GitHub.com with different merge options or enforce a specific merge method for all of your repository's pull requests.
 >>>- ## [Squashing merge](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github#squashing-your-merge-commits)
->>>the pull request's commits are squashed into a single commit. Instead of seeing all of a contributor's individual commits from a topic branch, the commits are combined into one commit and merged into the default branch.![Squashing merge](https://docs.github.com/assets/cb-5742/mw-1440/images/help/pull_requests/commit-squashing-diagram.webp) 
+>>>the pull request's commits are squashed into a single commit. Instead of seeing all of a contributor's individual commits from a topic branch, the commits are combined into one commit and merged into the default branch.![Squashing merge](https://raw.githubusercontent.com/Ahmad-alnahal/Git-Summary/main/images/commitSquashingDiagram.webp) 
 >>>
 >>> ==disadvantages :==
 >>>1. You lose information about when specific changes were originally made and who authored the squashed commits.
@@ -27,7 +27,7 @@ git remote -v
 >>> all commits from the topic branch (or head branch) are added onto the base branch individually without a merge commit.
 >>>- ## [fast-forward merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
 >>>A fast-forward merge can occur when there is a linear path from the current branch tip to the target branch. Instead of “actually” merging the branches, all Git has to do to integrate the histories is move the current branch tip up to the target branch tip This effectively combines the histories, since all of the commits reachable from the target branch are now available through the current one.
->>>![fast-forward marge](https://www.w3docs.com/uploads/media/default/0001/03/4f3db14561c7045ff3375e3d8087d6b3b981a359.png)
+>>>![fast-forward marge](https://raw.githubusercontent.com/Ahmad-alnahal/Git-Summary/main/images/fast-forward-marge.png)
 
 -  To See All Branches  In Your Git 
 ```shell
@@ -377,13 +377,13 @@ git push (remote) --delete (tag name)
 >- feature that makes it easier for developers to collaborate using **Bitbucket**.
 >- They provide a user-friendly web interface for discussing proposed changes before integrating them into the official project.
 >- **pull requests are a mechanism for a developer to notify team members that they have completed a feature.**
->![pull request](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuO585kblpHNFU1Lf5tDatV3weMmd0UK-50kfT_w7bog&s)
+>![pull request](https://raw.githubusercontent.com/Ahmad-alnahal/Git-Summary/main/images/pullRequest.png)
 >- provide 4 pieces of information to file a pull request:
 >>1. **the source repository**
 >>2. **the source branch**
 >>3. **the destination repository**
 >>4. **the destination branch**
->>![pull request](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStlFwRPnph8jN3QbjiNejZ6cn8cnrnPBR5-znhrV9M4A&s)
+>>![pull request](https://raw.githubusercontent.com/Ahmad-alnahal/Git-Summary/main/images/pullRequest2.png)
 >- pull request requires either two distinct branches or two distinct repositories
 
 ## Best Git GUI’s
